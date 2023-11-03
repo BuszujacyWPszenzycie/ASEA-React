@@ -1,0 +1,24 @@
+@use './colors/colors' as *;
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+
+body {
+	font-size: 1rem;
+	font-family: 'Space Mono', monospace;
+	background-color: $main-green;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

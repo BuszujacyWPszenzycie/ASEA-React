@@ -1,0 +1,23 @@
+@use '../colors/colors' as *;
+
+.header {
+	&__h1 {
+		margin-top: 3rem;
+		font-size: 5rem;
+	}
+	&__div {
+		margin-top: 3rem;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		background-color: $font-hover-color;
+		color: $header-font-color;
+		border-radius: 8rem;
+		// border: 1px solid black;
+	}
+
+	&__subdiv {
+		display: flex;
+	}
+}

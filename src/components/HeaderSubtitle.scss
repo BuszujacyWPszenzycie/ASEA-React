@@ -1,0 +1,19 @@
+@use '../colors/colors' as *;
+
+.header {
+	&__div {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 3rem;
+		// background-color: ;
+	}
+	&__h2 {
+		font-size: 3rem;
+	}
+
+	&__p {
+		font-size: 2rem;
+		text-wrap: wrap;
+	}
+}
